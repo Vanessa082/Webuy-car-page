@@ -229,14 +229,11 @@ form .btnn {
   min-height: 60vh;
   display: flex;
   justify-content: space-between;
-  /* padding: 1.5rem 0; */
 }
 
 .section-2 .sell {
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
-  /* height: fit-content; */
 }
 
 
@@ -443,7 +440,7 @@ footer .primary-footer .footer1 {
   flex-direction: column;
 }
 
-/* primary-footer .footer1 .footer1-one*/
+/* primary-footer .footer1 .footer1-one */
 
 footer .primary-footer .footer1 .footer1-one {
   display: flex;
@@ -460,7 +457,7 @@ footer .primary-footer .footer1 .footer1-one h1 {
   color: #fff;
 }
 
-/* primary-footer .footer1 .footer1-two*/
+/* primary-footer .footer1 .footer1-two */
 
 footer .primary-footer .footer1 .footer1-two {
   color: #fff;
@@ -535,10 +532,32 @@ select {
   .section-1 .text {
     padding-top: 1rem;
   }
+  
+  .section-2 h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    padding: 1rem 0;
+  }
 
   .section-1 .text h2 {
     max-width: 240px;
     font-size: 1.7rem;
+  }
+
+  .section-4 .contact p {
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-bottom: 0.3rem;
+  }
+
+  form p {
+    white-space: wrap;
+  }
+
+  .section-1 .text p {
+    max-width: 200px;
+    font-size: 1rem;
   }
 
   .section-3 .sect article p {
@@ -546,11 +565,6 @@ select {
     font-size: 0.8rem;
     font-weight: lighter;
     padding: 1rem 0;
-  }
-
-  .section-1 .text p {
-    max-width: 200px;
-    font-size: 1rem;
   }
 
   form {
@@ -564,10 +578,6 @@ select {
   form h3 {
     font-size: 1.5rem;
     color: var(--primary-red);
-  }
-
-  form p {
-    white-space: wrap;
   }
 
   /* MAIN: SECTION-2 */
@@ -589,13 +599,6 @@ select {
     background-position: center;
     width: 100%;
     margin: 0 auto;
-  }
-
-  .section-2 h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 1rem;
-    padding: 1rem 0;
   }
 
   .section-2 .sell ul li {
@@ -694,6 +697,12 @@ select {
     border-radius: 9rem;
   }
 
+  .section-4 .contact a {
+    color: var(--primary-red);
+    font-weight: bold;
+    padding-bottom: 0.4rem;
+  }
+
   .section-3 .sect article h4 a {
     color: #808080;
     font-size: 0.8rem;
@@ -701,10 +710,11 @@ select {
     padding: 1rem 0;
   }
 
-  .section-4 .contact a {
+  .section-4 .contact h2 {
+    font-size: 1.8rem;
     color: var(--primary-red);
-    font-weight: bold;
-    padding-bottom: 0.4rem;
+    font-weight: 500;
+    padding: 2rem;
   }
 
   .section-3 .sect article h2 {
@@ -728,19 +738,6 @@ select {
     transform: translateY(-20%);
     width: 80vw;
     height: 55vh;
-  }
-
-  .section-4 .contact h2 {
-    font-size: 1.8rem;
-    color: var(--primary-red);
-    font-weight: 500;
-    padding: 2rem;
-  }
-
-  .section-4 .contact p {
-    font-size: 1rem;
-    font-weight: lighter;
-    padding-bottom: 0.3rem;
   }
 
   .section-4 .contact button {
