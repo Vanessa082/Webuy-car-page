@@ -668,33 +668,6 @@ footer .primary-footer .footer2 ul li {
     padding: 1rem;
   }
 
-  .section-3 .sect article .aimg {
-    background-image: url("../images/couch.jpg");
-    background-size: cover;
-    background-position: top;
-    width: 100%;
-    padding: 5rem;
-    height: 50vh;
-  }
-
-  .section-3 .sect article .aimg1 {
-    background-image: url("../images/cars.jpg");
-    background-size: cover;
-    background-position: top;
-    width: 100%;
-    padding: 5rem;
-    height: 50vh;
-  }
-
-  .section-3 .sect article .aimg2 {
-    background-image: url("../images/happy.jpg");
-    background-size: cover;
-    background-position: top;
-    width: 100%;
-    padding: 5rem;
-    height: 50vh;
-  }
-
   .section-3 .sect article figure img {
     width: 8vw;
     border-radius: 9rem;
