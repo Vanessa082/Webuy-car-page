@@ -223,7 +223,7 @@ form .btnn {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 1.5rem;
+  /* padding-top: 1.5rem; */
   margin: 0 auto;
 }
 
@@ -252,10 +252,11 @@ form .btnn {
 }
 
 .section-2one .men {
-  background-image: "url(../images/men.jpg)";
+  background-image: url("../images/men.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: center;
   width: 50%;
+  margin-bottom: 2rem;
 }
 
 /* MAIN: SECTION-3 */
@@ -302,7 +303,7 @@ form .btnn {
 }
 
 .section-3 .sect article .aimg {
-  background-image: "url(../images/couch.jpg)";
+  background-image: url("../images/couch.jpg");
   background-size: cover;
   background-position: top;
   width: 100%;
@@ -311,7 +312,7 @@ form .btnn {
 }
 
 .section-3 .sect article .aimg1 {
-  background-image: "url(../images/cars.jpg)";
+  background-image: url("../images/cars.jpg");
   background-size: cover;
   background-position: top;
   width: 100%;
@@ -320,7 +321,7 @@ form .btnn {
 }
 
 .section-3 .sect article .aimg2 {
-  background-image: "url(../images/happy.jpg)";
+  background-image: url("../images/happy.jpg");
   background-size: cover;
   background-position: top;
   width: 100%;
@@ -490,6 +491,10 @@ footer .primary-footer .footer2 .li {
 
 footer .primary-footer .footer2 ul li {
   padding: 0.7rem 0;
+}
+
+.connect i {
+  color: #fff;
 }
 
 .copy {
