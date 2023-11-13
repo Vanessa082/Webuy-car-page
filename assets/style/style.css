@@ -223,7 +223,6 @@ form .btnn {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* padding-top: 1.5rem; */
   margin: 0 auto;
 }
 
@@ -414,6 +413,10 @@ form .btnn {
   margin: 0.4rem;
 }
 
+.connect i {
+  color: #fff;
+}
+
 .section-4 .contact button i {
   font-size: 1rem;
 }
@@ -491,10 +494,6 @@ footer .primary-footer .footer2 .li {
 
 footer .primary-footer .footer2 ul li {
   padding: 0.7rem 0;
-}
-
-.connect i {
-  color: #fff;
 }
 
 .copy {
