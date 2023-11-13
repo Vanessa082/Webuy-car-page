@@ -90,6 +90,13 @@ main {
   z-index: 1;
 }
 
+.section-2 h2 {
+  color: var(--primary-red);
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
 .section-1 .text h2 {
   max-width: 350px;
   font-size: 2.8rem;
@@ -232,12 +239,6 @@ form .btnn {
   /* height: fit-content; */
 }
 
-.section-2 h2 {
-  color: var(--primary-red);
-  font-size: 2rem;
-  font-weight: 600;
-  padding-bottom: 1rem;
-}
 
 .section-2 .sell ul li {
   display: flex;
@@ -332,8 +333,25 @@ form .btnn {
   border-radius: 10rem;
 }
 
-.section-3 .sect article h4 a,
-.sect article p {
+.section-4 .contact p {
+  font-size: 1rem;
+  font-weight: lighter;
+  padding-bottom: 0.3rem;
+}
+
+.section-3 .sect article p {
+  color: #808080;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.section-4 .contact a {
+  color: var(--primary-red);
+  font-weight: bold;
+  padding-bottom: 0.4rem;
+}
+
+.section-3 .sect article h4 a {
   color: #808080;
   font-size: 0.8rem;
   font-weight: lighter;
@@ -384,18 +402,6 @@ form .btnn {
   color: var(--primary-red);
   font-weight: 500;
   padding: 2rem;
-}
-
-.section-4 .contact p {
-  font-size: 1rem;
-  font-weight: lighter;
-  padding-bottom: 0.3rem;
-}
-
-.section-4 .contact a {
-  color: var(--primary-red);
-  font-weight: bold;
-  padding-bottom: 0.4rem;
 }
 
 .section-4 .contact button {
