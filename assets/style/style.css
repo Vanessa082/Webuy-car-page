@@ -239,7 +239,6 @@ form .btnn {
   flex-direction: column;
 }
 
-
 .section-2 .sell ul li {
   display: flex;
   align-items: center;
@@ -357,6 +356,13 @@ form .btnn {
   font-weight: lighter;
 }
 
+.section-4 .contact h2 {
+  font-size: 1.8rem;
+  color: var(--primary-red);
+  font-weight: 500;
+  padding: 2rem;
+}
+
 .section-3 .sect article h2 {
   color: var(--primary-red);
   font-size: 0.8rem;
@@ -395,13 +401,6 @@ form .btnn {
   border: 1px solid #d3d3d3d8;
   border-radius: 7px;
   height: 55vh;
-}
-
-.section-4 .contact h2 {
-  font-size: 1.8rem;
-  color: var(--primary-red);
-  font-weight: 500;
-  padding: 2rem;
 }
 
 .section-4 .contact button {
