@@ -71,7 +71,7 @@ main {
 
 .section-1 {
 background:
-linear-gradient(to bottom, #00000049, #00000049),
+  linear-gradient(to bottom, #00000049, #00000049),
     url("../images/back.jpg");
   width: min(100%, 97vw);
   margin: 0 auto;
