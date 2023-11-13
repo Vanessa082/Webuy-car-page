@@ -163,7 +163,6 @@ form span {
   padding-top: 0.3rem;
   display: grid;
   grid-template-columns: 60% auto;
-  margin: 0 auto;
   width: 100%;
   margin: 0 auto;
   height: 10vh;
@@ -179,6 +178,10 @@ form span {
 #plate {
   width: 100%;
   margin: 0 auto;
+}
+
+select {
+  display: none;
 }
 
 form select {
@@ -489,10 +492,6 @@ footer .primary-footer .footer2 ul li {
   padding: 0.7rem 0;
 }
 
-select {
-  display: none;
-}
-
 .copy {
   margin: 0 auto;
   font-size: 0.5rem;
@@ -545,14 +544,14 @@ select {
     font-size: 1.7rem;
   }
 
+  form p {
+    white-space: wrap;
+  }
+
   .section-4 .contact p {
     font-size: 1rem;
     font-weight: lighter;
     padding-bottom: 0.3rem;
-  }
-
-  form p {
-    white-space: wrap;
   }
 
   .section-1 .text p {
