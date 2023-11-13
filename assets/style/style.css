@@ -70,9 +70,9 @@ main {
 /* MAIN SECTION: SECTION-1 */
 
 .section-1 {
-background:
-linear-gradient(to bottom, #00000049, #00000049),
- url("../images/back.jpg");
+  background:
+    linear-gradient(to bottom, #00000049, #00000049),
+    url("../images/back.jpg");
   width: min(100%, 97vw);
   margin: 0 auto;
   background-size: cover;
