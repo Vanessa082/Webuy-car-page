@@ -181,14 +181,14 @@ form span {
   margin: 0 auto;
 }
 
-select {
+.dropdown {
   display: none;
 }
 
-form select {
+#select {
   border: none;
   margin-left: 0.3rem;
-  padding: 0.5rem;
+  padding: 0.8rem;
   width: 100%;
   height: fit-content;
   background-color: #d3d3d3;
@@ -500,6 +500,68 @@ footer .primary-footer .footer2 ul li {
   margin: 0 auto;
   font-size: 0.5rem;
   color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+
+  /* Adjustments for desktop screens */
+
+  nav {
+    padding: 0.5rem 2rem;
+  }
+
+  nav .logo h2 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    gap: 3rem;
+  }
+
+  main {
+    padding: 2rem;
+  }
+
+  form {
+    padding: 4rem 2rem;
+  }
+
+  .section-2 .sell ul li {
+    margin-bottom: 2rem;
+  }
+
+  .section-2one .men {
+    margin-bottom: 0;
+  }
+
+  .section-3 {
+    padding: 4rem;
+  }
+
+  footer .primary-footer {
+    padding: 4rem;
+  }
+
+  footer .primary-footer .footer1 .footer1-one img {
+    width: 8rem;
+  }
+
+  footer .primary-footer .footer1 .footer1-one h1 {
+    font-size: 4rem;
+  }
+
+  footer .primary-footer .footer1 .footer1-two {
+    font-size: 2.5rem;
+  }
+
+  footer .primary-footer .footer2 .li {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+  }
+
+  .copy {
+    font-size: 0.7rem;
+  }
 }
 
 /* mobile-responsiveness */
